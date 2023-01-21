@@ -8,6 +8,9 @@ body{
 .navbar-brand{
     color: white;
 }
+.navbar-brand-selected{
+    color: #90908a;
+}
 .logo{
     width: 64px;
     padding: 10px;
@@ -21,7 +24,6 @@ main{
 }
 .card-img-top:hover{
     transform:scale(1.05);
-
 }
 h2{
     text-align: center;
