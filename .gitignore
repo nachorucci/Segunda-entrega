@@ -1,0 +1,6 @@
+# Node modules
+node_modules
+.idea
+.DS_Store
+assets/.DS_Store
+.dist
