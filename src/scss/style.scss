@@ -1,0 +1,435 @@
+/*INICIO*/
+body {
+    background-color: rgb(9, 9, 15);
+}
+
+.navbar {
+    background-color: rgb(9, 9, 15) !important;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand-selected {
+    color: #90908a;
+}
+
+.logo {
+    width: 64px;
+    padding: 10px;
+}
+
+main {
+    background-color: rgb(9, 9, 15);
+}
+
+.card-img-top {
+    transition: 0.5s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.centered {
+    text-align: center;
+}
+
+.info {
+    background-color: #272726;
+    height: 20 W0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.justified-text {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.card {
+    width: 36rem;
+}
+
+.card-body {
+    width: auto;
+    text-align: center;
+}
+
+.card-title,
+.card-text {
+    color: rgbrgb(9, 9, 15);
+}
+
+.grupoTarjetas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*OFERTAS*/
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*FOOTER*/
+.fondo {
+    background-color: rgb(9, 9, 15);
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 1px solid white;
+}
+
+.textoRedes {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+
+}
+
+.derechos {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.instagram {
+    width: 32px;
+}
+
+.twitter {
+    width: 32px;
+}
+
+.youtube {
+    width: 32px;
+}
+
+.facebook {
+    width: 32px;
+}
+
+footer ul div li a {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*VIAJA*/
+
+.formulario {
+    padding: 30px;
+    background-color: rgb(25 25 31);
+    max-width: 900px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 60px;
+    grid-template-areas: "titulo titulo"
+        "nomApell email"
+        "telefono asunto"
+        "mensaje mensaje"
+        "btn      btn";
+}
+
+.formulario h1:nth-child(1) {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-area: titulo;
+}
+
+.formulario label:nth-child(2) {
+    grid-area: nomApell;
+}
+
+.formulario label:nth-child(3) {
+    grid-area: email;
+}
+
+.formulario label:nth-child(4) {
+    grid-area: telefono;
+}
+
+.formulario label:nth-child(5) {
+    grid-area: asunto;
+}
+
+.formulario label:nth-child(6) {
+    grid-area: mensaje;
+}
+
+.formulario button:nth-child(7) {
+    grid-area: btn;
+    background-color: white;
+    border: 0;
+    color: rgb(9, 9, 15);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.opiniones {
+    text-align: center;
+}
+
+.formulario label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.formulario label input,
+.formulario label textarea {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.formulario label textarea {
+    height: 60px;
+}
+
+/*LOGIN*/
+
+
+.formularioOpinion {
+    padding: 30px;
+    background-color: rgb(25 25 31);
+    max-width: 900px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 60px;
+    grid-template-areas: "titulo titulo"
+        "nombre apellido"
+        "opinion opinion"
+        "btn      btn";
+}
+
+.formularioOpinion h1:nth-child(1) {
+    grid-area: titulo;
+}
+
+.formularioOpinion label:nth-child(2) {
+    grid-area: nombre;
+}
+
+.formularioOpinion label:nth-child(3) {
+    grid-area: apellido;
+}
+
+.formularioOpinion label:nth-child(4) {
+    grid-area: opinion;
+}
+
+.formularioOpinion button:nth-child(6) {
+    grid-area: btn;
+    background-color: white;
+    border: 0;
+    color: rgb(9, 9, 15);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.formularioOpinion label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.formularioOpinion label input,
+.formularioOpinion label textarea {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.formularioOpinion label textarea {
+    height: 60px;
+}
+
+.formularioLogin {
+    padding: 30px;
+    background-color: rgb(25 25 31);
+    max-width: 900px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 60px;
+    grid-template-areas: "titulo titulo"
+        "nomApell email"
+        "telefono asunto"
+        "btn      btn";
+}
+
+.formularioLogin h1:nth-child(1) {
+    grid-area: titulo;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formularioLogin label:nth-child(2) {
+    grid-area: nomApell;
+}
+
+.formularioLogin label:nth-child(3) {
+    grid-area: email;
+}
+
+.formularioLogin label:nth-child(4) {
+    grid-area: telefono;
+}
+
+.formularioLogin label:nth-child(5) {
+    grid-area: asunto;
+}
+
+.formularioLogin button:nth-child(6) {
+    grid-area: btn;
+    background-color: white;
+    border: 0;
+    color: rgb(9, 9, 15);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.formularioLogin label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.formularioLogin label input,
+.formularioLogin label textarea {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.formularioLogin label textarea {
+    height: 60px;
+}
+
+/*VIAJA*/
+
+.formularioViaja {
+    padding: 30px;
+    background-color: rgb(25 25 31);
+    max-width: 900px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 60px;
+    grid-template-areas: "titulo titulo"
+        "nomApell email"
+        "telefono asunto"
+        "pasajeros clase"
+        "btn      btn";
+}
+
+.formularioViaja h1:nth-child(1) {
+    grid-area: titulo;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formularioViaja label:nth-child(2) {
+    grid-area: nomApell;
+}
+
+.formularioViaja label:nth-child(3) {
+    grid-area: email;
+}
+
+.formularioViaja label:nth-child(4) {
+    grid-area: telefono;
+}
+
+.formularioViaja label:nth-child(5) {
+    grid-area: asunto;
+}
+
+.formularioViaja label:nth-child(6) {
+    grid-area: pasajeros;
+}
+
+.formularioViaja label:nth-child(7) {
+    grid-area: clase;
+}
+
+.formularioViaja button:nth-child(8) {
+    grid-area: btn;
+    background-color: white;
+    border: 0;
+    color: rgb(9, 9, 15);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.formularioViaja label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.formularioViaja label input,
+.formularioViaja label textarea {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.formularioViaja label textarea {
+    height: 60px;
+}
